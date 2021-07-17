@@ -1,0 +1,349 @@
+body{
+    background-image:linear-gradient(white, rgb(240, 240, 240)); ;
+}
+header{
+    text-align: right;
+}
+#sidebar{
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    background-image:linear-gradient(to right, white, rgb(240, 240, 240));
+    float:left;
+    width:10pc;
+    height:100%;
+    overflow:auto;
+    border-right: 0.5px solid rgb(190, 190, 251);
+}
+#logo{
+    position: absolue;
+}
+#contents{
+    margin-top: 0px;
+}
+.con_list{
+    list-style-type: none;
+    padding-left: 10px;
+    margin: 0px;
+}
+.con_list a{
+    color: rgba(0, 0, 255, 0.596);
+    font-size: 15px;
+    text-decoration: none;
+}
+.con_list a:hover{
+    border-bottom: 1px solid rgba(0, 0, 255, 0.596);
+}
+.con_head{
+    padding-bottom: 4px;
+    text-decoration: none;
+    position: relative;
+}
+.con_head::after {
+    background:rgba(112, 107, 107, 0.452);
+    background: linear-gradient( to right, transparent 0%, black 50%, transparent 100%);
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+}
+#settings{
+    padding-right: 10px;
+    float: right;
+}
+.topbar{
+    position: absolute;
+    top: 50px;
+    background-image:linear-gradient(white, rgb(240, 240, 240));
+    float:right;
+    margin-left: 162px;
+    width:86%;
+    height:30px;
+    overflow:auto;
+    border-bottom: 0.5px solid rgb(190, 190, 251);
+}
+#article{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid white;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-right: 0.5px solid rgb(190, 190, 251);
+    border-bottom: white;
+}
+#article span{
+    position: absolute;
+    bottom: 2px;
+}
+#article span a{
+    text-decoration: none;
+    color: black;
+}
+#Talk{
+    position: absolute;
+    bottom: 0;
+    left: 52px;
+    background-image:linear-gradient(white, rgb(224, 229, 248));
+    height: 50px;
+    width: 50px;
+    border-right: 0.5px solid rgb(190, 190, 251) ;
+}
+#Talk span{
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+#Talk span a{
+    text-decoration: none;
+    color: rgb(0, 0, 87);
+}
+#Talk span a:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.596);
+}
+#Read{
+    position: absolute;
+    bottom: 0;
+    left: 650px;
+    border: 1px solid white;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-right: 0.5px solid rgb(190, 190, 251);
+    border-bottom: white;
+}
+#Read span{
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+#Read span a{
+    text-decoration: none;
+    color: black;
+}
+#view_source{
+    position: absolute;
+    bottom: 0;
+    left: 700px;
+    background-image:linear-gradient(white, rgb(224, 229, 248));
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid rgb(11, 11, 253) ;
+}
+#view_source span{
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+#view_source span a{
+    text-decoration: none;
+    color: rgb(0, 0, 87);
+}
+#view_source span a:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.596);
+}
+#view_history{
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+    background-image:linear-gradient(white, rgb(224, 229, 248));
+    height: 50px;
+    width: 100px;
+    border-right: 1px solid rgb(6, 6, 250) ;
+}
+#view_history span{
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+#view_history span a{
+    text-decoration: none;
+    color: rgb(0, 0, 87);
+}
+#view_history span a:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, 0.596);
+}
+#search{
+    position: absolute;
+    bottom: 0;
+    left: 900px;
+    background-image:linear-gradient(white, rgb(224, 229, 248));
+    height: 50px;
+    width: 180px;
+}
+#search input{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    height:16px;
+    width: 150px;
+    border-right: none;
+    border-left: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+#search button{
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    background-image: url(search.png);
+    height: 20px;
+    width: 20px;
+    bottom: 1px;
+    left: 150px;
+    border-left: none;
+    border-right: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+main{
+    margin-left: 160px;
+    margin-top:56px;
+    padding: 20px;
+    padding-top: 20px;
+    height: 2000px;
+    border-left:0.5px solid rgb(190, 190, 251) ;
+    background-color: white;
+}
+h1{
+    margin: 0px;
+    font-weight: 300;
+}
+main p{
+    margin: 0px;
+}
+main a{
+    text-decoration: none;
+    color:rgb(0, 106, 177);
+}
+main a:hover{
+    border-bottom: 1px solid rgb(0, 106, 177);
+}
+main #headpart #start{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-style: oblique;
+}
+main #headpart #sub{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+main #content{
+    margin-right: 300px;
+}
+main #content p{
+    font-size: 16px;
+}
+.n{
+    vertical-align: super;
+    font-size: 10px;
+}
+main #content #pa1, #pa2, #pa3{
+    padding-top: 10px;
+}
+main #right_frame{
+    position: absolute;
+    top: 295px;
+    bottom: 0px;
+    left: 950px;
+    background-color: white;
+    float:right;
+    width:300px;
+    height:1058px;
+    overflow:auto;
+}
+#wiki{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+#about{
+    position: absolute;
+    top: 30px;
+    bottom:0px;
+    left: 10px;
+    right: 10px;
+    background-image:linear-gradient(to right, white, rgb(240, 240, 240));
+    float:right;
+    overflow:auto;
+    border: 0.5px solid gray;
+}
+#pic_link:hover{
+    border-bottom: none;
+}
+#pic{
+    position: absolute;
+    top:5px;
+    left: 50px;
+    width: 200px;
+    height: 250px;
+}
+#rd{
+    position: absolute;
+    top: 255px;
+    text-align: center;
+    font-size: 13px;
+}
+#ssd{
+    position: absolute;
+    top: 290px;
+    left: 5px;
+    right: 5px;
+    background-color: rgb(207, 204, 204);
+    text-align: center;
+}
+#ssd p{
+    font-size: 15px;
+    font-weight: 500;
+}
+#ss{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    text-align: right;
+}
+#lc{
+    position: absolute;
+    left: 5px;
+    top:320px;
+    width: 100px; 
+}
+#lc p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+#rc{
+    position: absolute;
+    left: 105px;
+    top: 320px;
+    width: 170px;
+}
+#rc p{
+    font-size: 15px;
+}
+#a{
+    height: 16px;
+}
+.s{
+    vertical-align: super;
+    font-size: 10px;
+}
+#tofcontents{
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    width: 400px;
+    height: 1060px;
+    background-image:linear-gradient(rgb(240, 240, 240), white);
+    border: 1px solid black;
+    padding-top: 10px;
+}
+#h{
+    text-align: center;
+    font-weight: 1000;
+}
